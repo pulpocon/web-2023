@@ -1,0 +1,60 @@
+@import "~/assets/scss/settings/_variables";
+@import "~/assets/scss/mixins";
+
+.web-footer {
+  background: var(--blue) url(~/assets/i/bg-blue.jpg) no-repeat;
+  background-size: cover;
+  color: var(--text-color);
+  padding: 50px 0 50px 0;
+  position: relative;
+
+
+  &__content {
+  }
+
+  &__links {
+    padding-top: 30px;
+    text-align: center;
+
+    a {
+      margin: 0 5px 10px 5px;
+      color: var(--text-color);
+      @include a-inverse(var(--text-color), var(--text-color));
+    }
+  }
+}
+
+.event-organizer {
+  text-align: center;
+
+  &__title {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    color: var(--white);
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  &__logos {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__link {
+    display: block;
+    padding: 0 20px 15px 20px;
+
+    .organizer--craftersvigo {
+      width: 70px;
+    }
+
+
+    .organizer--vigotech {
+      width: 60px;
+    }
+
+    .organizer--aindustriosa {
+      width: 70px;
+    }
+  }
+}
