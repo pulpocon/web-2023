@@ -1,0 +1,1 @@
+import{d as t,A as o,u as a,_ as s,o as n,c as r,w as c,a as p,b as _}from"./entry.547eb8d8.js";const u=t({name:"Error",components:{App:o},setup(){a({bodyAttrs:{class:"page-error"}})}});function d(f,m,x,i,l,$){const e=_;return n(),r(e,{name:"default"},{default:c(()=>[p(" ERROR ")]),_:1})}const R=s(u,[["render",d]]);export{R as default};
