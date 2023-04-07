@@ -9,11 +9,15 @@ const menu: MenuItem[] = [
     "title": "Home"
   },
   {
-    "link": "/#program",
+    "link": "/program",
     "title": "Programa"
   },
   {
-    "link": "/#location",
+    "link": "/organization",
+    "title": "Organization"
+  },
+  {
+    "link": "/location",
     "title": "Ubicación"
   },
   {
@@ -25,8 +29,8 @@ const menu: MenuItem[] = [
     "title": "Diversidad"
   },
   {
-    "link": "/#2019",
-    "title": "PulpoCon19"
+    "link": "/ediciones-anteriores",
+    "title": "Ediciones anteriores"
   }
 ]
 

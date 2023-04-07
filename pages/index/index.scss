@@ -1,47 +1,7 @@
 @import "../../assets/scss/mixins";
 @import "../../assets/scss/settings/variables";
 
-.home {
-  display: flex;
-  min-height: calc(100vh - 60px);
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: $white;
-  padding: 30px;
-  text-align: center;
-
-  header {
-    text-align: center;
-  }
-
-  footer {
-    padding-top: 50px;
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-
-    svg {
-      width: 70px
-    }
-  }
-
-  .logo {
-    width: 300px;
-    margin-bottom: 50px;
-  }
-
-  .crafters-vigo {
-    width: 90px;
-  }
-
-  h2 {
-    margin-bottom: 4rem;
-    font-size: 2rem;
-
-    line-height: 1.2em;
-  }
-
+.page-home {
   a {
     @include a($white);
     color: $white;

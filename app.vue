@@ -5,16 +5,10 @@
     </NuxtLayout>
   </div>
 </template>
-<script lang="ts">
+<script lang="ts" setup>
 import { definePageMeta } from '#imports'
-import { defineComponent } from 'vue'
 
-export default defineComponent({
-  name: 'App',
-  setup() {
-    definePageMeta({
-      layout: 'default'
-    })
-  }
+definePageMeta({
+  layout: 'default'
 })
 </script>

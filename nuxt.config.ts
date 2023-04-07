@@ -4,9 +4,9 @@ import mdPlugin  from 'vite-plugin-markdown'
 
 export default defineNuxtConfig({
   mode: 'static',
-  buildModules: ['@pinia/nuxt'],
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@pinia/nuxt',
   ],
   css: ['~/assets/scss/app.scss', '~/node_modules/@fortawesome/fontawesome-free/css/all.css'],
   meta: {

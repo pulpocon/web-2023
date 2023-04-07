@@ -1,7 +1,9 @@
 body {
   font-family: 'Domine', serif;
   min-height: 100vh;
-  background: var(--dark-blue);
+  background: var(--dark-blue) url(assets/i/bg.png);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 

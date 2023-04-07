@@ -171,3 +171,31 @@
 @mixin fade-animation($time: 1s) {
   animation: fade-animation $time infinite;
 }
+
+
+@mixin gradient() {
+  background: var(--turquoise);
+  background: linear-gradient(to right,
+          var(--turquoise),
+          var(--blue-violet),
+          var(--purple),
+          var(--dark-purple),
+          var(--pink),
+          var(--orange),
+          var(--yellow)
+  );
+}
+
+@mixin text-gradient() {
+  background: linear-gradient(to right,
+          var(--turquoise),
+          var(--blue-violet),
+          var(--purple),
+          var(--dark-purple),
+          var(--pink),
+          var(--orange),
+          var(--yellow)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
