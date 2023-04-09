@@ -199,3 +199,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@mixin text-gradient-light() {
+  background: linear-gradient(to right,
+          var(--pink),
+          var(--orange),
+          var(--yellow)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

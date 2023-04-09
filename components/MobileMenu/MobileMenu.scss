@@ -9,8 +9,6 @@
   right: 0;
   bottom: 0;
   z-index: 98;
-
-
   transition: all .2s ease-in-out;
 
 
@@ -28,7 +26,8 @@
     position: absolute;
     width: 60%;
     max-width: 250px;
-    background: var(--red);
+    background: var(--turquoise);
+    color: $black;
     background-size: cover;
     padding: 30px;
     left: 0;
@@ -45,7 +44,7 @@
         text-transform: uppercase;
         text-decoration: none;
         position: relative;
-        color: $white;
+        color: var(--dark-blue);
         font-weight: 700;
         font-size: 18px;
         line-height: 1em;

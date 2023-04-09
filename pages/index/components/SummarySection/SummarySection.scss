@@ -21,6 +21,7 @@
     position: absolute;
     display: block;
     content: "";
+    backdrop-filter: blur(10px);
   }
 
 

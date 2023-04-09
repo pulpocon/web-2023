@@ -52,6 +52,29 @@ export default defineNuxtConfig({
     plugins: [mdPlugin({
       mode: [Mode.VUE]
     })]
+  },
+  cookieControl: {
+    optional: [
+      {
+        name: 'Google Analitycs',
+        identifier: 'ga',
+        description: 'Google GTM is...',
+        initialState: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-71877009-2',
+        async: true,
+        cookies: ['_ga', '_gat', '_gid'],
+        accepted: () => {
+          window.dataLayer = window.dataLayer || []
+          window.dataLayer.push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+          })
+        },
+        declined: () => {
+        }
+      }
+    ]
+
   }
 })
 

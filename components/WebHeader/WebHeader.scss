@@ -79,13 +79,20 @@
   width: 40px;
   height: 40px;
   margin-right: 20px;
-  color: var(--text-contrast-color);
+  color: $white;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all .2s ease-in-out;
 
   i {
     font-size: 25px;
+  }
+}
+
+.not-in-top {
+  .mobile-menu-toggle {
+    color: var(--dark-blue);
   }
 }
 

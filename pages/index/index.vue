@@ -16,5 +16,6 @@ useHead({
   },
   title: '#pulpoCon23 - Vigo, 7, 8 y 9 septiembre 2023'
 })
+
 </script>
 <style src="./index.scss"></style>

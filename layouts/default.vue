@@ -5,7 +5,6 @@
     <slot name="default">
       <index></index>
     </slot>
-
     <web-footer/>
   </div>
 </template>
