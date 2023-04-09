@@ -12,9 +12,11 @@
 
   .logo {
     margin-bottom: 40px;
+
     svg {
       width: 320px;
     }
+
     display: flex;
     justify-content: center;
   }
@@ -36,5 +38,4 @@
     text-align: center;
     color: var(--turquoise);
   }
-
 }

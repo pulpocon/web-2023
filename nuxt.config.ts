@@ -1,12 +1,10 @@
-import { Mode } from 'vite-plugin-markdown'
-
-import mdPlugin  from 'vite-plugin-markdown'
+import mdPlugin, { Mode } from 'vite-plugin-markdown'
 
 export default defineNuxtConfig({
   mode: 'static',
   modules: [
     '@nuxt/content',
-    '@pinia/nuxt',
+    '@pinia/nuxt'
   ],
   css: ['~/assets/scss/app.scss', '~/node_modules/@fortawesome/fontawesome-free/css/all.css'],
   meta: {
@@ -53,7 +51,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [mdPlugin({
       mode: [Mode.VUE]
-    })],
+    })]
   }
 })
 

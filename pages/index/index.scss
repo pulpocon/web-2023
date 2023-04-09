@@ -2,9 +2,5 @@
 @import "../../assets/scss/settings/variables";
 
 .page-home {
-  a {
-    @include a($white);
-    color: $white;
-    font-size: 1.2rem;
-  }
+
 }

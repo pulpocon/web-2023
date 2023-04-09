@@ -16,6 +16,9 @@
       <vue-writter :array="claims" :erase-speed="50" :typeSpeed="70" caret="underscore" class="claims"></vue-writter>
     </div>
 
+    <a class="btn" href="#summary">
+      <i class="fas fa-arrow-down"></i> Más información <i class="fas fa-arrow-down"></i>
+    </a>
   </section>
 </template>
 

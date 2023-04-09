@@ -17,6 +17,7 @@
   "dependencies": {
     "@nuxt/content": "^2.5.2",
     "@pinia/nuxt": "^0.4.7",
+    "aos": "^2.3.4",
     "pinia": "^2.0.33",
     "sireno-grid": "^0.4.0",
     "vue-use": "^0.2.0",
