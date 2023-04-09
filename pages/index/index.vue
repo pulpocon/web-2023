@@ -2,6 +2,7 @@
   <div class="page-home">
     <hero-section></hero-section>
     <summary-section></summary-section>
+    <location-section></location-section>
   </div>
 </template>
 
@@ -9,6 +10,7 @@
 import { useHead } from '@vueuse/head'
 import HeroSection from './components/HeroSection'
 import SummarySection from './components/SummarySection'
+import LocationSection from './components/LocationSection'
 
 useHead({
   bodyAttrs: {

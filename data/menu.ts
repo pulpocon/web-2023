@@ -17,9 +17,13 @@ const menu: MenuItem[] = [
     'title': 'Organización'
   },
   {
-    'link': '/location',
-    'title': 'Ubicación'
+    link: 'https://lnkd.in/dyxjcJn6',
+    title: 'Call4Papers'
   },
+  // {
+  //   'link': '/patrocina',
+  //   'title': 'Patrocina'
+  // },
   {
     'link': '/codigo-de-conducta',
     'title': 'Código de conducta'

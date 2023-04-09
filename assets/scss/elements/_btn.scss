@@ -5,7 +5,7 @@
   padding: 15px 35px;
   color: var(--dark-blue);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0 20px 10px 0;
   border-radius: 9999px;
 
@@ -15,5 +15,10 @@
   &:not(.btn--disabled):hover {
     color: var(--text-contrast-color);
     @include gradient();
+  }
+
+  @include media-min(768px) {
+    font-size: 20px;
+    margin: 0 20px 10px 0;
   }
 }
