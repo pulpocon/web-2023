@@ -15,7 +15,7 @@
     "vite-plugin-markdown": "^2.1.0"
   },
   "dependencies": {
-    "@dargmuesli/nuxt-cookie-control": "github:dargmuesli/nuxt-cookie-control",
+    "@dargmuesli/nuxt-cookie-control": "5.10.3",
     "@nuxt/content": "^2.5.2",
     "@pinia/nuxt": "^0.4.7",
     "aos": "^2.3.4",
