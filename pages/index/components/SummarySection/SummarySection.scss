@@ -71,20 +71,26 @@
 
 
       &:nth-child(1) {
-        background: var(--blue-violet);
+        background: var(--turquoise);
+        color: $black;
       }
 
       &:nth-child(2) {
-        background: var(--pink);
+        background: var(--blue-violet);
         color: $black;
       }
 
       &:nth-child(3) {
-        background: var(--orange);
+        background: var(--pink);
         color: $black;
       }
 
       &:nth-child(4) {
+        background: var(--orange);
+        color: $black;
+      }
+
+      &:nth-child(5) {
         background: var(--yellow);
         color: $black;
       }
@@ -101,5 +107,10 @@
     @include media-min(768px) {
       font-size: 1.5em;
     }
+  }
+
+  &__sponsors {
+    padding: 30px;
+    text-align: center;
   }
 }

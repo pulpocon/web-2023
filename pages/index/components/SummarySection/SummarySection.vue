@@ -15,15 +15,20 @@
           <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="200">
             <span class="number">3</span> días
           </aside>
+
           <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="400">
-            <span class="number">14</span> talleres
+            <span class="number">1</span> open space
           </aside>
 
           <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="600">
-            <span class="number">12</span> charlas
+            <span class="number">14</span> talleres
           </aside>
 
           <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="800">
+            <span class="number">14</span> charlas
+          </aside>
+
+          <aside class="summary-section__data-box" data-aos="fade-up" data-aos-delay="1000">
             <span class="number">+10h</span> de networking a la gallega
           </aside>
         </div>
@@ -37,6 +42,13 @@
             arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos
             ponentes de gran prestigio nacional e internacional. 7, 8 y 9 de septiembre de 2023 en Vigo</p>
         </header>
+
+        <div class="summary-section__sponsors">
+          <a class="btn"
+             href="https://docs.google.com/presentation/d/1uKfOvS8VZI0Tnv4O_uWb5fJqD7l-H-5ZNHtZkhZ2bVs/edit">
+            ¿Quieres patrocinar la #pulpoCon23?
+          </a>
+        </div>
       </div>
     </div>
   </section>
