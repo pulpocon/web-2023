@@ -1,5 +1,5 @@
 <template>
-  <article class="page-simple__wrapper">
+  <article class="page-simple__wrapper page--diversity">
     <div class="container-fluid-900">
       <header class="page-simple__header">
         <h1 class="page-simple__title">Diversidad</h1>
@@ -21,6 +21,25 @@
         <p>Por todo ello, queremos transmitir nuestra invitación sincera a todos los colectivos que suelen estar poco
           representados en la comunidad tecnológica a que formen parte de la PulpoCon</p>
 
+        <p>En esta edicción contamos con el patrocinio de <a
+            href="https://www.kairosds.com/es/index.html?utm_source=pulpocon" target="_blank">Kairos DS</a> una empresa
+          que desde
+          siempre ha estado comprometida con el sector, su comunidad y su diversidad para que nos ayude en esta misión
+          tan importante.</p>
+
+        <p>Recuerda Las 🎟️ diversity son 100% gratuitas, incluye la comida y tendrás noticias nuestras antes de que las
+          entradas salgan a la venta: </p>
+
+        <div class="logo-kairos">
+          <img alt="Kairos DS" src="@/assets/i/sponsors/logo-k.svg"/>
+        </div>
+        <div class="cta">
+          <a
+              class="btn"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdilLfQ7_ZLSkjHlW2MgJsRkpijPbg9SPIIUgD9H7-gERjVfw/viewform"
+          >Formulario entradas diversity</a>
+        </div>
+
       </div>
     </div>
   </article>
@@ -34,3 +53,4 @@ useHead({
   }
 })
 </script>
+<style src="./diversity.scss"></style>
