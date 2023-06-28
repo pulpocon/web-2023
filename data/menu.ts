@@ -16,10 +16,10 @@ const menu: MenuItem[] = [
     'link': '/organization',
     'title': 'Organización'
   },
-  {
-    link: 'https://lnkd.in/dyxjcJn6',
-    title: 'Call4Papers'
-  },
+  // {
+  //   link: 'https://lnkd.in/dyxjcJn6',
+  //   title: 'Call4Papers'
+  // },
   // {
   //   'link': '/patrocina',
   //   'title': 'Patrocina'

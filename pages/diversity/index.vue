@@ -6,7 +6,7 @@
       </header>
 
       <div class="page-simple__content">
-        <p>La diversidad, importa. Desde la organización de la <strong>PulpoCon</strong> sabemos que cuando el
+        <p>La diversidad importa. Desde la organización de la <strong>PulpoCon</strong> sabemos que cuando el
           desarrollo de una aplicación se lleva a cabo por un equipo diverso, esto hace que el resultado sea de mayor
           calidad.</p>
 
