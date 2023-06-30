@@ -9,17 +9,17 @@
     </header>
     <div class="page__block container-fluid-900">
       <p>
-        La #pulpoCon es un evento nacido en Vigo en 2019 bajo el paragüas de PHPVigo que transciende del lenguage de
-        programación y cuyo obvetivo es fomentar las buenas practicas y el <em>clean code</em> independientemente del
-        lenguage de programación.
+        La #pulpoCon es un evento nacido en Vigo en 2019 bajo el paraguas de PHPVigo, que transciende del lenguaje de
+        programación, y cuyo objetivo es fomentar las buenas prácticas y el <em>clean code</em>, independientemente del
+        lenguaje de programación.
       </p>
 
-      <p>Actualmente esta organizada por <strong class="text-gradient-light">CraftersVigo</strong> y se convierte en un
+      <p>Actualmente está organizada por <strong class="text-gradient-light">CraftersVigo</strong>, y se convierte en un
         evento que mezcla tecnología y gastronomía.</p>
 
-      <p>Nuestro objetivo es claro, seguir fomentando la colaboración, las buenas práctivas y dar a conocer las bondades
-        del sector técnológico gallego a través de los ponentes locales, y de Galicia a través de la gastronomia y
-        networking que nos hace tan especiales.</p>
+      <p>Nuestro objetivo es claro: seguir fomentando la colaboración y las buenas prácticas, dar a conocer las bondades
+        del sector tecnológico gallego a través de los ponentes locales, y de Galicia a través de la gastronomía y
+        <em>networking</em>, lo que nos hace tan especiales.</p>
 
     </div>
 
@@ -30,7 +30,7 @@
       </h2>
 
       <div class="container-fluid-900">
-        <p>La <strong>PulpoCon</strong> se lleva a cabo gracias a muchas personas pero en especial a estos 3 osados que
+        <p>La <strong>PulpoCon</strong> se lleva a cabo gracias a muchas personas, pero en especial a estos 3 osados que
           dedican su tiempo de forma altruista para tratar de que el evento sea y salga lo mejor posible.</p>
       </div>
       <div class="page--organization__organizers-content">
