@@ -10,7 +10,7 @@
     <div class="page__block container-fluid-900">
       <p>
         La #pulpoCon es un evento nacido en Vigo en 2019 bajo el paraguas de PHPVigo, que transciende del lenguaje de
-        programación, y cuyo objetivo es fomentar las buenas practicas y el <em>clean code</em> independientemente del
+        programación, y cuyo objetivo es fomentar las buenas prácticas y el <em>clean code</em>, independientemente del
         lenguaje de programación.
       </p>
 
