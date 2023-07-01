@@ -19,7 +19,7 @@
             <th>&nbsp;</th>
             <th>
               <a href="https://twitter.com/phpulpocon/status/1675089260142108673" target="_blank">
-                Track Newbies ℹ️
+                Crafter FullStack ℹ️
               </a>
             </th>
             <th>
@@ -128,11 +128,27 @@
         <table class="program-day__table">
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
-            <th>Track Crafter</th>
-            <th>Track DevOps</th>
+            <th>
+              <a href="https://twitter.com/phpulpocon/status/1675097280385359872" target="_blank">
+                Track Management ℹ️
+              </a>
+            </th>
+            <th>
+              <a href="https://twitter.com/phpulpocon/status/1675108751337037825" target="_blank">
+                Track DevOps ℹ️
+              </a>
+            </th>
             <th>Track Data</th>
-            <th>Track Management</th>
-            <th>Track Newbies</th>
+            <th>
+              <a href="https://twitter.com/phpulpocon/status/1675102724805779458" target="_blank">
+                Track Management ℹ️
+              </a>
+            </th>
+            <th>
+              <a href="https://twitter.com/phpulpocon/status/1675089260142108673" target="_blank">
+                Crafter FullStack ℹ️
+              </a>
+            </th>
             <th>Track Talks</th>
           </tr>
 
@@ -147,10 +163,10 @@
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="2">
-              Ana Carmona
+              9:30<br>11:30
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <em>TBC</em>
+              Ana Carmona
             </td>
             <td class="program-day__table-title" rowspan="2">
               <em>TBC</em>
@@ -229,7 +245,7 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <em>TBC</em>
+              Anastasia Kondratieva
             </td>
             <td class="program-day__table-title" rowspan="2">
               <em>TBC</em>
