@@ -94,8 +94,19 @@
         background: var(--bg-color);
       }
 
+      td, th {
+        a {
+          color: inherit;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
 
       td {
+
+
         padding: 10px;
         align-items: center;
         vertical-align: middle;

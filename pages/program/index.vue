@@ -17,8 +17,16 @@
         <table class="program-day__table">
           <tr class="program-day__table-header">
             <th>&nbsp;</th>
-            <th>Track Newbies</th>
-            <th>Open Space</th>
+            <th>
+              <a href="https://twitter.com/phpulpocon/status/1675089260142108673" target="_blank">
+                Track Newbies ℹ️
+              </a>
+            </th>
+            <th>
+              <a href="https://twitter.com/phpulpocon/status/1675097280385359872" target="_blank">
+                Open Space ℹ️
+              </a>
+            </th>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--start">
             <td class="program-day__table-time">
