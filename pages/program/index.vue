@@ -15,12 +15,20 @@
       </header>
       <div class="program-day__table-wrapper">
         <table class="program-day__table">
+          <tr class="program-day__table-header">
+            <th>&nbsp;</th>
+            <th>Track Newbies</th>
+            <th>Open Space</th>
+          </tr>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--start">
             <td class="program-day__table-time">
               08:30<br/>09:30
             </td>
             <td class="program-day__table-title">
               Badge pickup & Breakfast 🪪☕
+            </td>
+            <td class="program-day__table-empty">
+              &nbsp;
             </td>
           </tr>
           <!----->
@@ -31,6 +39,9 @@
             <td class="program-day__table-title">
               Crafter FullStack from 0 to 100
             </td>
+            <td class="program-day__table-empty">
+              &nbsp;
+            </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--break">
@@ -39,6 +50,9 @@
             </td>
             <td class="program-day__table-title">
               Coffee Break ☕
+            </td>
+            <td class="program-day__table-empty">
+              &nbsp;
             </td>
           </tr>
           <!----->
@@ -49,6 +63,9 @@
             <td class="program-day__table-title">
               Crafter FullStack from 0 to 100
             </td>
+            <td class="program-day__table-empty">
+              &nbsp;
+            </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--lunch">
@@ -58,14 +75,28 @@
             <td class="program-day__table-title">
               Lunch 🍽️
             </td>
+            <td class="program-day__table-empty">
+              &nbsp;
+            </td>
           </tr>
           <!----->
-          <tr class="program-day__table-slot  program-day__table-slot--2h program-day__table-slot--event">
+          <tr class="program-day__table-slot  program-day__table-slot--3h program-day__table-slot--event">
             <td class="program-day__table-time">
               16:00<br>18:00
             </td>
             <td class="program-day__table-title">
               Crafter FullStack from 0 to 100
+            </td>
+            <td class="program-day__table-title" rowspan="2">
+              Open Space
+            </td>
+          </tr>
+          <tr class="program-day__table-slot  program-day__table-slot--1h program-day__table-slot--event">
+            <td class="program-day__table-time">
+              18:00<br>19:00
+            </td>
+            <td class="program-day__table-empty">
+              &nbsp;
             </td>
           </tr>
         </table>
@@ -184,7 +215,7 @@
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="2">
-              12:00<br>14:00
+              16:00<br>18:00
             </td>
             <td class="program-day__table-title" rowspan="2">
               <em>TBC</em>

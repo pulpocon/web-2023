@@ -50,6 +50,10 @@
           height: 160px;
         }
 
+        &--3h {
+          height: 240px;
+        }
+
         &--start {
           --bg-color: var(--turquoise);
           --text-color: #000;
@@ -78,6 +82,12 @@
         font-size: 0.8em;
 
         background: color-mix(in srgb, var(--bg-color), #000 15%);
+      }
+
+      &-empty {
+        background: var(--blue-violet);
+
+        background: color-mix(in srgb, var(--bg-color), #000 30%);
       }
 
       &-title {
