@@ -138,7 +138,11 @@
                 Track DevOps ℹ️
               </a>
             </th>
-            <th>Track Data</th>
+            <th>
+              <a href="https://twitter.com/phpulpocon/status/1675114219576991750" target="_blank">
+                Track Data ℹ️
+              </a>
+            </th>
             <th>
               <a href="https://twitter.com/phpulpocon/status/1675102724805779458" target="_blank">
                 Track Management ℹ️
@@ -149,7 +153,11 @@
                 Crafter FullStack ℹ️
               </a>
             </th>
-            <th>Track Talks</th>
+            <th>
+              <a href="https://twitter.com/phpulpocon/status/1675144767443795968" target="_blank">
+                Track Talks (La Pulpito) ℹ️
+              </a>
+            </th>
           </tr>
 
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--start">
@@ -279,6 +287,9 @@
       <header>
         <h2 class="heading-3">
           Sábado, 9 de septiembre 2023
+          <a href="https://twitter.com/phpulpocon/status/1675152008683180032" target="_blank">
+            ℹ️
+          </a>
         </h2>
       </header>
       <div class="program-day__table-wrapper">
