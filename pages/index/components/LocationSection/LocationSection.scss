@@ -26,13 +26,15 @@
     padding: 30px;
 
     background: var(--purple);
-    width: 300px;
+
+    max-width: 100%;
     line-height: 1.4em;
 
     @include media-min(768px) {
       border-radius: 30px;
       top: 30px;
       right: 30px;
+      width: 300px;
       position: absolute;
     }
 

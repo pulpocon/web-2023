@@ -8,10 +8,10 @@ const menu: MenuItem[] = [
     'link': '/#home',
     'title': 'Home'
   },
-  // {
-  //   'link': '/program',
-  //   'title': 'Programa'
-  // },
+  {
+    'link': '/program',
+    'title': 'Programa'
+  },
   {
     'link': '/organization',
     'title': 'Organización'

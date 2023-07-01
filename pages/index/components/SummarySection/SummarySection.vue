@@ -46,7 +46,16 @@
         <div class="summary-section__sponsors">
           <a class="btn"
              href="https://docs.google.com/presentation/d/1uKfOvS8VZI0Tnv4O_uWb5fJqD7l-H-5ZNHtZkhZ2bVs/edit">
-            ¿Quieres patrocinar la #pulpoCon23?
+            ¿Quieres patrocinar la #pulpoCon23? 🦑
+          </a>
+          <br/>
+
+          <nuxt-link class="btn" to="/program">
+            Programa 📅
+          </nuxt-link>
+
+          <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="btn">
+            Comprar entradas 🎟️
           </a>
         </div>
       </div>
@@ -57,5 +66,6 @@
 <script lang="ts" setup>
 
 
+import config from '~/data/config'
 </script>
 <style src="./SummarySection.scss"></style>
