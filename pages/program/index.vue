@@ -174,7 +174,7 @@
               9:30<br>11:30
             </td>
             <td class="program-day__table-title" rowspan="2">
-              Ana Carmona
+              <a href="https://twitter.com/phpulpocon/status/1669421244314275866">Ana Carmona</a>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <em>TBC</em>
@@ -183,13 +183,13 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              Mavi
+              <a href="https://twitter.com/phpulpocon/status/1668313122451468289">Mavi</a>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
             </td>
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <a href="https://twitter.com/phpulpocon/status/1676192556470738949">Yahima Duarte Perez</a>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
@@ -215,7 +215,7 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              Inma Valls
+              <a href="https://twitter.com/phpulpocon/status/1674401667188400129">Imma Valls</a>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <em>TBC</em>
@@ -253,13 +253,13 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              Anastasia Kondratieva
+              <a href="https://twitter.com/phpulpocon/status/1667565373003104259">Anastasia Kondratieva</a>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              Ricard Clau
+              <a href="https://twitter.com/phpulpocon/status/1674055466840649731">Ricard Clau</a>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
@@ -317,7 +317,7 @@
               10:10<br>10:50
             </td>
             <td class="program-day__table-title">
-              Concha Asensio
+              <a href="https://twitter.com/phpulpocon/status/1672267264299614208">Concha Asensio</a>
             </td>
           </tr>
           <!----->
@@ -344,7 +344,8 @@
               12:30<br>13:10
             </td>
             <td class="program-day__table-title">
-              <em>TBC</em></td>
+              <a href="https://twitter.com/phpulpocon/status/1676662789044051968">Gemma Cortel Perez</a>
+            </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
             <td class="program-day__table-time">
@@ -378,7 +379,7 @@
               16:50<br>17:30
             </td>
             <td class="program-day__table-title">
-              Carmen Ansio
+              <a href="https://twitter.com/phpulpocon/status/1667212679608430592">Carmen Ansio</a>
             </td>
           </tr>
           <!----->
@@ -387,7 +388,7 @@
               17:40<br>18:20
             </td>
             <td class="program-day__table-title">
-              Nino Dafonte
+              <a href="https://twitter.com/phpulpocon/status/1669758662464745501">Nino Dafonte</a>
             </td>
           </tr>
           <!----->
