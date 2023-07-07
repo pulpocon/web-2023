@@ -221,7 +221,7 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <em>TBC</em>
+              <a href="https://twitter.com/phpulpocon/status/1676947064109019138">Lucia Perez</a> & <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
