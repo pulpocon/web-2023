@@ -218,10 +218,12 @@
               <a href="https://twitter.com/phpulpocon/status/1674401667188400129">Imma Valls</a>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <em>TBC</em>
+              <a href="https://twitter.com/phpulpocon/status/1679035108551008257">Julien Vantyghem
+              </a> & <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1676947064109019138">Lucia Perez</a> & <em>TBC</em>
+              <a href="https://twitter.com/phpulpocon/status/1676947064109019138">Lucia Perez</a> &
+              <a href="https://twitter.com/phpulpocon/status/1678660514036043776">Miguel García Lorenzo</a>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
@@ -326,7 +328,7 @@
               11:00<br>11:40
             </td>
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <a href="https://twitter.com/phpulpocon/status/1679578799917133825">Ismael Hassan Romero</a>
             </td>
           </tr>
           <!----->
