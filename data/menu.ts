@@ -20,10 +20,10 @@ const menu: MenuItem[] = [
   //   link: 'https://lnkd.in/dyxjcJn6',
   //   title: 'Call4Papers'
   // },
-  // {
-  //   'link': '/patrocina',
-  //   'title': 'Patrocina'
-  // },
+  {
+    'link': '/patrocinadores',
+    'title': 'Patrocinadores'
+  },
   {
     'link': '/codigo-de-conducta',
     'title': 'Código de conducta'

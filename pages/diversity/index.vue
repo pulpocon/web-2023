@@ -31,7 +31,7 @@
           entradas salgan a la venta: </p>
 
         <div class="logo-kairos">
-          <img alt="Kairos DS" src="../../assets/i/sps/kairos.svg"/>
+          <img alt="Kairos DS" src="../../public/i/sps/kairos.svg"/>
         </div>
         <div class="cta">
           <a

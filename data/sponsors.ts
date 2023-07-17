@@ -26,7 +26,7 @@ const sponsors: SponsorGroups = {
     },
     {
       name: 'Elastic',
-      logo: '/i/sps/elasctic.svg',
+      logo: '/i/sps/elastic.svg',
       link: 'https://newrelic.com/about/culture?utm_origin=pulpocon&utm_medium=web'
     },
     {
@@ -41,7 +41,7 @@ const sponsors: SponsorGroups = {
     },
     {
       name: 'Cabify',
-      logo: '/i/sps/cabify.svg',
+      logo: '/i/sps/cabify.png',
       link: 'https://cabify.tech/?utm_origin=pulpocon&utm_medium=web'
     },
     {
@@ -55,6 +55,11 @@ const sponsors: SponsorGroups = {
       name: 'Kairos DS',
       logo: '/i/sps/kairos.svg',
       link: 'https://www.kairosds.com/es/index.html?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Life5',
+      logo: '/i/sps/life5.svg',
+      link: 'https://life5.es/?utm_origin=pulpocon&utm_medium=web'
     }
   ],
   [SponsorType.Silver]: [
