@@ -17,7 +17,13 @@ export enum SponsorType {
 type SponsorGroups = Record<SponsorType, Sponsor[]>
 
 const sponsors: SponsorGroups = {
-  [SponsorType.Octopus]: [],
+  [SponsorType.Octopus]: [
+    {
+      name: 'Zenrows',
+      logo: '/i/sps/zenrows.png',
+      link: 'https://www.zenrows.com/?utm_origin=pulpocon&utm_medium=web'
+    }
+  ],
   [SponsorType.Diamond]: [
     {
       name: 'Nextail',
@@ -77,6 +83,16 @@ const sponsors: SponsorGroups = {
       name: 'Siteground',
       logo: '/i/sps/siteground.svg',
       link: 'https://www.siteground.es/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Ultreia',
+      logo: '/i/sps/ultreia.png',
+      link: 'https://ultreia.es/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Codium',
+      logo: '/i/sps/codium.png',
+      link: 'https://www.codium.team/?utm_origin=pulpocon&utm_medium=web'
     }
   ],
   [SponsorType.Bronze]: [],
