@@ -222,8 +222,9 @@
               </a> & <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1676947064109019138">Lucia Perez</a> &
-              <a href="https://twitter.com/phpulpocon/status/1678660514036043776">Miguel García Lorenzo</a>
+              <nuxt-link to="/workshop/miguel-lucia">
+                Lucia Perez & Miguel García Lorenzo
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
