@@ -27,7 +27,7 @@
 
           <h2 class="heading-2">2019</h2>
           <p>
-            La edición de 2019 fué la primera edición de la <strong>PulpoCon</strong> siendo todo un éxito con 200
+            La edición de 2019 fue la primera edición de la <strong>PulpoCon</strong>, siendo todo un éxito con 200
             asistentes llegados de varias partes de España, principalmente Vigo y Barcelona.
           </p>
 
