@@ -329,7 +329,9 @@
               10:10<br>10:50
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1672267264299614208">Concha Asensio</a>
+              <nuxt-link to="/talk/concha-asensio">
+                Concha Asensio
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -358,7 +360,7 @@
               12:30<br>13:10
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1676662789044051968">Gemma Cortel Perez</a>
+              <nuxt-link to="/talk/gemma-cortel">Gemma Cortel Perez</nuxt-link>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
@@ -397,7 +399,7 @@
               16:50<br>17:30
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1667212679608430592">Carmen Ansio</a>
+              <nuxt-link to="/talk/carmen-ansio">Carmen Ansio</nuxt-link>
             </td>
           </tr>
           <!----->
@@ -406,7 +408,7 @@
               17:40<br>18:20
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1669758662464745501">Nino Dafonte</a>
+              <nuxt-link to="/talk/nino-dafonte">Nino Dafonte</nuxt-link>
             </td>
           </tr>
           <!----->
