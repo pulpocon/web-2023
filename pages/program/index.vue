@@ -183,13 +183,19 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/mavi-jimenez">Mavi Jimenez</nuxt-link>
+              <nuxt-link to="/workshop/mavi-jimenez">
+                {{ workshops['mavi-jimenez'].speaker[0].name }}:
+                <strong>{{ workshops['mavi-jimenez'].title }}</strong>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/workshop/yahima-duarte">Yahima Duarte Perez</nuxt-link>
+              <nuxt-link to="/workshop/yahima-duarte">
+                {{ workshops['yahima-duarte'].speaker[0].name }}:
+                <strong>{{ workshops['yahima-duarte'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
@@ -213,22 +219,26 @@
             </td>
             <td class="program-day__table-title" rowspan="2">
               <nuxt-link to="/workshop/javier-chacana">
-                Javier Chacana
+                {{ workshops['javier-chacana'].speaker[0].name }}:
+                <strong>{{ workshops['javier-chacana'].title }}</strong>
               </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <nuxt-link to="/workshop/imma-valls">
-                Imma Valls
+                {{ workshops['imma-valls'].speaker[0].name }}:
+                <strong>{{ workshops['imma-valls'].title }}</strong>
               </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <nuxt-link to="/workshop/julien-david">
-                Julien Vantyghem & <em>TBC</em>
+                {{ workshops['julien-david'].speaker[0].name }} & {{ workshops['julien-david'].speaker[1].name }}:
+                <strong>{{ workshops['julien-david'].title }}</strong>
               </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <nuxt-link to="/workshop/miguel-lucia">
-                Lucia Perez & Miguel García Lorenzo
+                {{ workshops['miguel-lucia'].speaker[0].name }} & {{ workshops['miguel-lucia'].speaker[1].name }}:
+                <strong>{{ workshops['miguel-lucia'].title }}</strong>
               </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
@@ -262,7 +272,8 @@
             </td>
             <td class="program-day__table-title" rowspan="2">
               <nuxt-link to="/workshop/anastasia-kondratieva">
-                Anastasia Kondratieva
+                {{ workshops['anastasia-kondratieva'].speaker[0].name }}:
+                <strong>{{ workshops['anastasia-kondratieva'].title }}</strong>
               </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
@@ -270,7 +281,8 @@
             </td>
             <td class="program-day__table-title" rowspan="2">
               <nuxt-link to="/workshop/ricard-clau">
-                Ricard Clau
+                {{ workshops['ricard-clau'].speaker[0].name }}:
+                <strong>{{ workshops['ricard-clau'].title }}</strong>
               </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
@@ -455,5 +467,6 @@
 <script lang="ts" setup>
 import config from '~/data/config'
 import talks from '~/data/talks'
+import workshops from '~/data/workshops'
 </script>
 <style src="./program.scss"></style>

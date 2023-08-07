@@ -1,5 +1,5 @@
 export default {
-  title: 'Ricard Clau',
+  title: 'TBC',
   speaker: [
     {
       image: 'ricard-clau.jpg',
