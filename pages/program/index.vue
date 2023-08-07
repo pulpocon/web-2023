@@ -130,7 +130,7 @@
             <th>&nbsp;</th>
             <th>
               <a href="https://twitter.com/phpulpocon/status/1675097280385359872" target="_blank">
-                Track Management ℹ️
+                Track Crafter ℹ️
               </a>
             </th>
             <th>
@@ -183,13 +183,19 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1668313122451468289">Mavi</a>
+              <nuxt-link to="/workshop/mavi-jimenez">
+                {{ workshops['mavi-jimenez'].speaker[0].name }}:
+                <strong>{{ workshops['mavi-jimenez'].title }}</strong>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1676192556470738949">Yahima Duarte Perez</a>
+              <nuxt-link to="/workshop/yahima-duarte">
+                {{ workshops['yahima-duarte'].speaker[0].name }}:
+                <strong>{{ workshops['yahima-duarte'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
@@ -212,18 +218,28 @@
               12:00<br>14:00
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <em>TBC</em>
+              <nuxt-link to="/workshop/javier-chacana">
+                {{ workshops['javier-chacana'].speaker[0].name }}:
+                <strong>{{ workshops['javier-chacana'].title }}</strong>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1674401667188400129">Imma Valls</a>
+              <nuxt-link to="/workshop/imma-valls">
+                {{ workshops['imma-valls'].speaker[0].name }}:
+                <strong>{{ workshops['imma-valls'].title }}</strong>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1679035108551008257">Julien Vantyghem
-              </a> & <em>TBC</em>
+              <nuxt-link to="/workshop/julien-david">
+                {{ workshops['julien-david'].speaker[0].name }} & {{ workshops['julien-david'].speaker[1].name }}:
+                <strong>{{ workshops['julien-david'].title }}</strong>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1676947064109019138">Lucia Perez</a> &
-              <a href="https://twitter.com/phpulpocon/status/1678660514036043776">Miguel García Lorenzo</a>
+              <nuxt-link to="/workshop/miguel-lucia">
+                {{ workshops['miguel-lucia'].speaker[0].name }} & {{ workshops['miguel-lucia'].speaker[1].name }}:
+                <strong>{{ workshops['miguel-lucia'].title }}</strong>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
@@ -255,13 +271,19 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1667565373003104259">Anastasia Kondratieva</a>
+              <nuxt-link to="/workshop/anastasia-kondratieva">
+                {{ workshops['anastasia-kondratieva'].speaker[0].name }}:
+                <strong>{{ workshops['anastasia-kondratieva'].title }}</strong>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1674055466840649731">Ricard Clau</a>
+              <nuxt-link to="/workshop/ricard-clau">
+                {{ workshops['ricard-clau'].speaker[0].name }}:
+                <strong>{{ workshops['ricard-clau'].title }}</strong>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
@@ -319,7 +341,10 @@
               10:10<br>10:50
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1672267264299614208">Concha Asensio</a>
+              <nuxt-link to="/talk/concha-asensio">
+                {{ talks['concha-asensio'].speaker.name }}
+                <strong>{{ talks['concha-asensio'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -328,7 +353,10 @@
               11:00<br>11:40
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1679578799917133825">Ismael Hassan Romero</a>
+              <nuxt-link to="/talk/isma-hassan">
+                {{ talks['isma-hasan'].speaker.name }}
+                <strong>{{ talks['isma-hasan'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -346,7 +374,10 @@
               12:30<br>13:10
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1676662789044051968">Gemma Cortel Perez</a>
+              <nuxt-link to="/talk/gemma-cortel">
+                {{ talks['gemma-cortel'].speaker.name }}
+                <strong>{{ talks['gemma-cortel'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
@@ -354,7 +385,10 @@
               13:20<br>14:00
             </td>
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <nuxt-link to="/talk/fran-iglesias">
+                {{ talks['fran-iglesias'].speaker.name }}
+                <strong>{{ talks['fran-iglesias'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -372,7 +406,10 @@
               16:00<br>16:40
             </td>
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <nuxt-link to="/talk/anna-julia">
+                {{ talks['anna-julia'].speaker.name }}
+                <strong>{{ talks['anna-julia'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -381,7 +418,10 @@
               16:50<br>17:30
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1667212679608430592">Carmen Ansio</a>
+              <nuxt-link to="/talk/carmen-ansio">
+                {{ talks['carmen-ansio'].speaker.name }}
+                <strong>{{ talks['carmen-ansio'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -390,7 +430,10 @@
               17:40<br>18:20
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1669758662464745501">Nino Dafonte</a>
+              <nuxt-link to="/talk/nino-dafonte">
+                {{ talks['nino-dafonte'].speaker.name }}
+                <strong>{{ talks['nino-dafonte'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -423,5 +466,7 @@
 </template>
 <script lang="ts" setup>
 import config from '~/data/config'
+import talks from '~/data/talks'
+import workshops from '~/data/workshops'
 </script>
 <style src="./program.scss"></style>
