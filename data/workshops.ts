@@ -1,11 +1,21 @@
+import miguelLucia from './workshops/miguel-lucia'
+import anastasiaKondratieva from './workshops/anastasia-kondratieva'
+import maviJimenez from './workshops/mavi-jimenez'
+import immaValls from './workshops/imma-valls'
+import julienDavid from './workshops/julien-david'
+import ricardClau from './workshops/ricard-clau'
+import yahimaDuarte from './workshops/yahima-duarte'
+import anaCarmona from './workshops/ana-carmona'
+import javierChacana from './workshops/javier-chacana'
+
 export default {
-  'miguel-lucia': (await import('./workshops/miguel-lucia')).default,
-  'anastasia-kondratieva': (await import('./workshops/anastasia-kondratieva')).default,
-  'mavi-jimenez': (await import('./workshops/mavi-jimenez')).default,
-  'imma-valls': (await import('./workshops/imma-valls')).default,
-  'julien-david': (await import('./workshops/julien-david')).default,
-  'ricard-clau': (await import('./workshops/ricard-clau')).default,
-  'yahima-duarte': (await import('./workshops/yahima-duarte')).default,
-  'ana-carmona': (await import('./workshops/ana-carmona')).default,
-  'javier-chacana': (await import('./workshops/javier-chacana')).default
+  'miguel-lucia': miguelLucia,
+  'anastasia-kondratieva': anastasiaKondratieva,
+  'mavi-jimenez': maviJimenez,
+  'imma-valls': immaValls,
+  'julien-david': julienDavid,
+  'ricard-clau': ricardClau,
+  'yahima-duarte': yahimaDuarte,
+  'ana-carmona': anaCarmona,
+  'javier-chacana': javierChacana
 }
