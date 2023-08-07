@@ -130,7 +130,7 @@
             <th>&nbsp;</th>
             <th>
               <a href="https://twitter.com/phpulpocon/status/1675097280385359872" target="_blank">
-                Track Management ℹ️
+                Track Crafter ℹ️
               </a>
             </th>
             <th>
@@ -183,13 +183,13 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1668313122451468289">Mavi</a>
+              <nuxt-link to="/workshop/mavi-jimenez">Mavi Jimenez</nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1676192556470738949">Yahima Duarte Perez</a>
+              <nuxt-link to="/workshop/yahima-duarte">Yahima Duarte Perez</nuxt-link>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
@@ -212,14 +212,19 @@
               12:00<br>14:00
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <em>TBC</em>
+              <nuxt-link to="/workshop/javier-chacana">
+                Javier Chacana
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1674401667188400129">Imma Valls</a>
+              <nuxt-link to="/workshop/imma-valls">
+                Imma Valls
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1679035108551008257">Julien Vantyghem
-              </a> & <em>TBC</em>
+              <nuxt-link to="/workshop/julien-david">
+                Julien Vantyghem & <em>TBC</em>
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <nuxt-link to="/workshop/miguel-lucia">
@@ -256,13 +261,17 @@
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1667565373003104259">Anastasia Kondratieva</a>
+              <nuxt-link to="/workshop/anastasia-kondratieva">
+                Anastasia Kondratieva
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <em>TBC</em>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <a href="https://twitter.com/phpulpocon/status/1674055466840649731">Ricard Clau</a>
+              <nuxt-link to="/workshop/ricard-clau">
+                Ricard Clau
+              </nuxt-link>
             </td>
             <td class="program-day__table-title" rowspan="2">
               Crafter FullStack from 0 to 100
@@ -329,7 +338,9 @@
               11:00<br>11:40
             </td>
             <td class="program-day__table-title">
-              <a href="https://twitter.com/phpulpocon/status/1679578799917133825">Ismael Hassan Romero</a>
+              <nuxt-link to="/talk/isma-hassan">
+                Ismael Hassan Romero
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -355,7 +366,9 @@
               13:20<br>14:00
             </td>
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <nuxt-link to="/talk/fran-iglesias">
+                Fran Iglesias
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -373,7 +386,9 @@
               16:00<br>16:40
             </td>
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <nuxt-link to="/talk/anna-julia">
+                Anna Juliá
+              </nuxt-link>
             </td>
           </tr>
           <!----->

@@ -1,4 +1,4 @@
-.page--workshop {
+.page--talk {
   max-width: 800px;
 
   .page__header {
@@ -7,7 +7,7 @@
     }
   }
 
-  .workshop {
+  .talk {
     &__footer {
       margin-top: 40px;
       text-align: center;
@@ -41,7 +41,7 @@
       &:hover {
         text-decoration: underline;
 
-        .workshop__speaker-image {
+        .talk__speaker-image {
           scale: 1.1;
         }
       }
