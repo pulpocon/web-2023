@@ -92,6 +92,11 @@
 
       &-title {
         background: var(--bg-color);
+
+        strong {
+          display: block;
+          font-weight: bold;
+        }
       }
 
       td, th {

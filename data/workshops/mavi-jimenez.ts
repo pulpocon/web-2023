@@ -2,7 +2,7 @@ export default {
   title: 'Agua, Aire, Tierra y Fuego',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/mavi.jpg', import.meta.url),
+      image: 'mavi.jpg',
       name: 'Mavi Jimenez',
       link: 'https://twitter.com/linkita'
     }

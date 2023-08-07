@@ -2,7 +2,7 @@ export default {
   title: 'Los datos que no sabes que tienes, y cómo usarlos',
   speaker:
     {
-      image: new URL('../../assets/i/speakers/nino-dafonte.jpg', import.meta.url),
+      image: 'nino-dafonte.jpg',
       name: 'Nino Dafonte',
       link: 'https://twitter.com/ninodafonte'
     }

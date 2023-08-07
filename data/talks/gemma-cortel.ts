@@ -2,7 +2,7 @@ export default {
   title: 'Lo primero es integrarse: Como construir un servicio integrado con terceros desde su nacimiento',
   speaker:
     {
-      image: new URL('../../assets/i/speakers/gemma-cortel.jpg', import.meta.url),
+      image: 'gemma-cortel.jpg',
       name: 'Gemma Cortel',
       link: 'https://twitter.com/crtl_gemma'
     }

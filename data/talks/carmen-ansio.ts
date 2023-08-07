@@ -2,7 +2,7 @@ export default {
   title: 'El lado oscuro del CSS: Cómo SOLID restaura el equilibrio',
   speaker:
     {
-      image: new URL('../../assets/i/speakers/carmen-ansio.jpg', import.meta.url),
+      image: 'carmen-ansio.jpg',
       name: 'Carmen Ansio',
       link: 'https://twitter.com/carmenansio'
     }

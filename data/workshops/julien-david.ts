@@ -2,12 +2,12 @@ export default {
   title: 'Dagster',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/julien.jpg', import.meta.url),
+      image: 'julien.jpg',
       name: 'Julien Vantyghem',
       link: 'https://twitter.com/JulienVantyghem'
     },
     {
-      image: new URL('../../assets/i/speakers/david-fernandez.jpg', import.meta.url),
+      image: 'david-fernandez.jpg',
       'name': 'David Fernández Calle',
       'link': 'https://www.linkedin.com/in/davidfernandezcalle/'
     }

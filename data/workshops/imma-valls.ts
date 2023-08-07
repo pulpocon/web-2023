@@ -2,7 +2,7 @@ export default {
   title: 'Taller de reliability testing con Grafana k6',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/imma-valls.jpg', import.meta.url),
+      image: 'imma-valls.jpg',
       name: 'Imma Valls',
       link: 'https://twitter.com/eyeveebee'
     }

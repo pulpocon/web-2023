@@ -2,7 +2,7 @@ export default {
   title: 'No todo el campo es "green". Aprendiendo a trabajar con legacy code.',
   speaker:
     {
-      image: new URL('../../assets/i/speakers/concha-asensio.jpg', import.meta.url),
+      image: 'concha-asensio.jpg',
       name: 'Concha Asensio Martínez-Rives',
       link: 'https://twitter.com/conchaasensio'
     }

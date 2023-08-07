@@ -2,7 +2,7 @@ export default {
   title: 'Vamos a llevarnos bien, porque si no van a haber hondonadas de ostias aquí, ¡eh!',
   speaker:
     {
-      image: new URL('../../assets/i/speakers/isma-hasan.jpg', import.meta.url),
+      image: 'isma-hasan.jpg',
       name: 'Ismael Hasan',
       link: 'https://twitter.com/IsmaelHasan'
     }

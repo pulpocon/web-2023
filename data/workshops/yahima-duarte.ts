@@ -2,7 +2,7 @@ export default {
   title: 'Micro-frontends: Divide the monolith and conquer',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/yahima.jpg', import.meta.url),
+      image: 'yahima.jpg',
       name: 'Yahima Duarte Perez',
       link: 'https://twitter.com/layahi82'
     }

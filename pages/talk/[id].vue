@@ -6,10 +6,10 @@
       </h1>
       <h3 class="talk__track">{{ talk.schedule }}</h3>
     </header>
-    <section class="talk__speakers talk__subsection">
+    <section v-if="talk.speaker" class="talk__speakers talk__subsection">
       <h2 class="heading-3">Speaker</h2>
       <a :href="talk.speaker.link" class="talk__speaker" rel="noopener noreferrer" target="_blank">
-        <img :alt="talk.speaker.name" :src="`${talk.speaker.image}?a=2`" class="talk__speaker-image">
+        <img :alt="talk.speaker.name" :src="image" class="talk__speaker-image">
         {{ talk.speaker.name }}
       </a>
     </section>
@@ -29,11 +29,16 @@
 </template>
 <script lang="ts" setup>
 import talks from '~/data/talks'
-import { ComputedRef } from 'vue'
+import { computed, ComputedRef } from 'vue'
 import { useRoute } from '#app'
 
 const route = useRoute()
 
 const talk: ComputedRef = computed(() => talks[route.params.id] || {})
+
+const image: ComputedRef<string | undefined> = computed(() => {
+  if (!talk.value.speaker) return undefined
+  return `/i/speakers/${talk.value.speaker.image}`
+})
 </script>
 <style src="./talk.scss"></style>

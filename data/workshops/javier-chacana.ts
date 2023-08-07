@@ -2,7 +2,7 @@ export default {
   title: 'Legacy Code: Guia de supervivencia',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/javier-chacana.jpg', import.meta.url),
+      image: 'javier-chacana.jpg',
       name: 'Javier Chacana',
       link: 'https://twitter.com/jchacana'
     }

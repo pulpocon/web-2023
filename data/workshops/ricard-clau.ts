@@ -2,7 +2,7 @@ export default {
   title: 'Ricard Clau',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/ricard-clau.jpg', import.meta.url),
+      image: 'ricard-clau.jpg',
       name: 'Ricard Clau',
       link: 'https://twitter.com/ricardclau'
     }

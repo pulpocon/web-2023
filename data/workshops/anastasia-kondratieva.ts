@@ -2,7 +2,7 @@ export default {
   title: 'Arquitectura en la nube con bridas y cinta americana',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/anastasia.jpg', import.meta.url),
+      image: 'anastasia.jpg',
       name: 'Anastasia Kondratieva',
       link: 'https://twitter.com/AnastasiaKnt'
     }

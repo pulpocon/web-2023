@@ -2,9 +2,9 @@ export default {
   title: 'De picar código a desarrollar',
   speaker:
     {
-      image: new URL('../../assets/i/speakers/fran-iglesias.jpg', import.meta.url),
+      image: 'fran-iglesias.jpg',
       name: 'Fran Iglesias',
-      link: ''
+      link: 'https://www.linkedin.com/in/franiglesias/'
     }
   ,
   description: [

@@ -2,7 +2,7 @@ export default {
   title: '¡Aventureros al tren! Cómo subirse al tren de los datos',
   speaker:
     {
-      image: new URL('../../assets/i/speakers/anna-julia.jpg', import.meta.url),
+      image: 'anna-julia.jpg',
       name: 'Anna Julià Verdaguer',
       link: 'https://twitter.com/annajv92'
     }

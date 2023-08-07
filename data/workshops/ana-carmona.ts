@@ -2,7 +2,7 @@ export default {
   title: 'Ana Carmona',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/ana-carmona.jpg', import.meta.url),
+      image: 'ana-carmona.jpg',
       name: 'Ana Carmona',
       link: 'https://twitter.com/nhan_bcn'
     }

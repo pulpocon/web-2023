@@ -2,12 +2,12 @@ export default {
   title: 'Introducción al Rol de Engineering Manager',
   speaker: [
     {
-      image: new URL('../../assets/i/speakers/miguel-garcia.jpg', import.meta.url),
+      image: 'miguel-garcia.jpg',
       name: 'Miguel García Lorenzo',
       link: 'https://www.linkedin.com/in/mgarlorenzo/'
     },
     {
-      image: new URL('../../assets/i/speakers/lucia-perez.jpg', import.meta.url),
+      image: 'lucia-perez.jpg',
       'name': 'Lucia Pérez Fernández',
       'link': 'https://www.linkedin.com/in/luc%C3%ADa-p%C3%A9rez-fern%C3%A1ndez-2279a177/'
     }
