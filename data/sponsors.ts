@@ -66,6 +66,16 @@ const sponsors: SponsorGroups = {
       name: 'Life5',
       logo: '/i/sps/life5.svg',
       link: 'https://life5.es/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Optare Solutions',
+      logo: '/i/sps/optare-solutions.png',
+      link: 'https://optaresolutions.com/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Inditex Tech',
+      logo: '/i/sps/inditex-tech.png',
+      link: 'https://www.zaratalent.com/es/tech/?utm_origin=pulpocon&utm_medium=web'
     }
   ],
   [SponsorType.Silver]: [
