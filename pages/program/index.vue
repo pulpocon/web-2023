@@ -45,9 +45,7 @@
               09:30<br>11:30
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/workshop/rolando-caldas">
-                Crafter FullStack from 0 to 100
-              </nuxt-link>
+              <workshop-teaser id="rolando-caldas"/>
             </td>
             <td class="program-day__table-empty">
               &nbsp;
@@ -71,9 +69,7 @@
               12:00<br>14:00
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/workshop/rolando-caldas">
-                Crafter FullStack from 0 to 100
-              </nuxt-link>
+              <workshop-teaser id="rolando-caldas"/>
             </td>
             <td class="program-day__table-empty">
               &nbsp;
@@ -97,9 +93,7 @@
               16:00<br>18:00
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/workshop/rolando-caldas">
-                Crafter FullStack from 0 to 100
-              </nuxt-link>
+              <workshop-teaser id="rolando-caldas"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
               <nuxt-link to="/openspace">
@@ -178,52 +172,36 @@
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
-            <td class="program-day__table-time" rowspan="2">
+            <td class="program-day__table-time" rowspan="3">
               9:30<br>11:30
             </td>
-            <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/ana-carmona">
-                {{ workshops['ana-carmona'].speaker[0].name }}:
-                <strong>{{ workshops['ana-carmona'].title }}</strong>
-              </nuxt-link>
-              <a href="https://twitter.com/phpulpocon/status/1669421244314275866">Ana Carmona</a>
+            <td class="program-day__table-title" rowspan="3">
+              <workshop-teaser id="ana-carmona"/>
             </td>
-            <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/maria-romero">
-                {{ workshops['maria-romero'].speaker[0].name }}
-                <strong>{{ workshops['maria-romero'].title }}</strong>
-              </nuxt-link>
+            <td class="program-day__table-title" rowspan="3">
+              <workshop-teaser id="maria-romero"/>
             </td>
-            <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/shenia-iago">
-                {{ workshops['shenia-iago'].speaker[0].name }} & {{ workshops['shenia-iago'].speaker[1].name }}:
-                <strong>{{ workshops['shenia-iago'].title }}</strong>
-              </nuxt-link>
+            <td class="program-day__table-title" rowspan="3">
+              <workshop-teaser id="shenia-iago"/>
             </td>
-            <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/mavi-jimenez">
-                {{ workshops['mavi-jimenez'].speaker[0].name }}:
-                <strong>{{ workshops['mavi-jimenez'].title }}</strong>
-              </nuxt-link>
+            <td class="program-day__table-title" rowspan="3">
+              <workshop-teaser id="mavi-jimenez"/>
             </td>
-            <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/rolando-caldas">
-                Crafter FullStack from 0 to 100
-              </nuxt-link>
+            <td class="program-day__table-title" rowspan="3">
+              <workshop-teaser id="rolando-caldas"/>
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/workshop/yahima-duarte">
-                {{ workshops['yahima-duarte'].speaker[0].name }}:
-                <strong>{{ workshops['yahima-duarte'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="yahima-duarte"/>
             </td>
           </tr>
-          <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
+          <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/workshop/sara-sara">
-                {{ workshops['sara-sara'].speaker[0].name }} & {{ workshops['sara-sara'].speaker[1].name }}:
-                <strong>{{ workshops['sara-sara'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="sara-sara"/>
+            </td>
+          </tr>
+          <tr class="program-day__table-slot program-day__table-slot--event">
+            <td class="program-day__table-title">
+              <workshop-teaser id="dario-miguel"/>
             </td>
           </tr>
           <!----->
@@ -241,44 +219,27 @@
               12:00<br>14:00
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/javier-chacana">
-                {{ workshops['javier-chacana'].speaker[0].name }}:
-                <strong>{{ workshops['javier-chacana'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="javier-chacana"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/imma-valls">
-                {{ workshops['imma-valls'].speaker[0].name }}:
-                <strong>{{ workshops['imma-valls'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="imma-valls"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/julien-david">
-                {{ workshops['julien-david'].speaker[0].name }} & {{ workshops['julien-david'].speaker[1].name }}:
-                <strong>{{ workshops['julien-david'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="julien-david"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/miguel-lucia">
-                {{ workshops['miguel-lucia'].speaker[0].name }} & {{ workshops['miguel-lucia'].speaker[1].name }}:
-                <strong>{{ workshops['miguel-lucia'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="miguel-lucia"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/rolando-caldas">
-                Crafter FullStack from 0 to 100
-              </nuxt-link>
+              <workshop-teaser id="rolando-caldas"/>
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/workshop/dario-miguel">
-                {{ workshops['dario-miguel'].speaker[0].name }} & {{ workshops['dario-miguel'].speaker[1].name }}:
-                <strong>{{ workshops['dario-miguel'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="valvanera-gijon"/>
             </td>
           </tr>
-          <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
+          <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <workshop-teaser id="adrian-alonso"/>
             </td>
           </tr>
           <!----->
@@ -296,35 +257,27 @@
               16:00<br>18:00
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <em>TBC</em>
+              <workshop-teaser id="yondra-lopez"></workshop-teaser>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/anastasia-kondratieva">
-                {{ workshops['anastasia-kondratieva'].speaker[0].name }}:
-                <strong>{{ workshops['anastasia-kondratieva'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="anastasia-kondratieva"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <em>TBC</em>
+              <workshop-teaser id="maryna-bogdan"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/ricard-clau">
-                {{ workshops['ricard-clau'].speaker[0].name }}:
-                <strong>{{ workshops['ricard-clau'].title }}</strong>
-              </nuxt-link>
+              <workshop-teaser id="ricard-clau"/>
             </td>
             <td class="program-day__table-title" rowspan="2">
-              <nuxt-link to="/workshop/rolando-caldas">
-                Crafter FullStack from 0 to 100
-              </nuxt-link>
+              <workshop-teaser id="rolando-caldas"/>
             </td>
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <workshop-teaser id="open-mic"/>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-title">
-              <em>TBC</em>
+              <workshop-teaser id="ruben-del-campo"/>
             </td>
           </tr>
         </table>
@@ -497,6 +450,6 @@
 <script lang="ts" setup>
 import config from '~/data/config'
 import talks from '~/data/talks'
-import workshops from '~/data/workshops'
+import WorkshopTeaser from './components/WorkshopTeaser.vue'
 </script>
 <style src="./program.scss"></style>

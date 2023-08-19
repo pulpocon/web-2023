@@ -6,7 +6,7 @@
       </h1>
       <h3 class="workshop__track">Track {{ workshop.track }} - {{ workshop.schedule }}</h3>
     </header>
-    <section class="workshop__speakers workshop__subsection">
+    <section v-if="workshop.speaker?.length > 0" class="workshop__speakers workshop__subsection">
       <h2 class="heading-3">{{ workshop.speaker.length > 1 ? 'Ponentes' : 'Ponente' }}</h2>
       <ul>
         <li v-for="speaker in workshop.speaker">
