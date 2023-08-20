@@ -2,7 +2,7 @@ export default {
   title: 'From Zero to Hero ',
   speaker: [
     {
-      image: 'ruben-del-campo.jpg',
+      image: 'ruben-del-campo.png',
       name: 'Ruben del Campo',
       link: 'https://www.linkedin.com/in/rdelcampog/'
     }

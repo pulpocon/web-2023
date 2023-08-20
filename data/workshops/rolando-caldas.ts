@@ -2,7 +2,7 @@ export default {
   title: '¿Qué pasa cuando no hay tiempo para ser crafter?',
   speaker: [
     {
-      image: 'rolando-caldas.jpg',
+      image: 'rolando-caldas.png',
       name: 'Rolando Caldas',
       link: 'https://twitter.com/rolando_caldas'
     }

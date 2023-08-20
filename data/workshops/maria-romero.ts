@@ -2,7 +2,7 @@ export default {
   title: 'Observabilidad, OpenTelemetry, ... ¿Que me estás contando?',
   speaker: [
     {
-      image: 'maria-romero.jpg',
+      image: 'maria-romero.png',
       name: 'Maria Romero',
       link: 'https://twitter.com/marromang'
     }

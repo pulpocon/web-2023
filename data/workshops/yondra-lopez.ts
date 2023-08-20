@@ -2,7 +2,7 @@ export default {
   title: 'Testing the untestable code',
   speaker: [
     {
-      image: 'yondra-lopez.jpg',
+      image: 'yodra-lopez.png',
       name: 'Yodra López',
       link: 'https://twitter.com/yodralopez'
     }

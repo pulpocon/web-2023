@@ -2,12 +2,12 @@ export default {
   title: '“Esto antes funcionaba”: un viaje sin fin a través del modelado físico, Python y la desesperación.',
   speaker: [
     {
-      image: 'sara-recondo.jpg',
+      image: 'sara-recondo.png',
       name: 'Sara Recondo',
       link: 'https://www.linkedin.com/in/srecondo/'
     },
     {
-      image: 'sara-sanchez.jpg',
+      image: 'sara-sanchez.png',
       name: 'Sara Sanchez',
       link: 'https://www.linkedin.com/in/sara-sanchez-pineiro/'
     }
