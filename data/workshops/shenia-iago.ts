@@ -2,14 +2,14 @@ export default {
   title: 'Guardianes de Datos: Innovando en ciberseguridad con Data Analytics & IA',
   speaker: [
     {
-      image: 'shenia-kuchumova.jpg',
+      image: 'shenia-kuchumova.png',
       name: 'Shenia Kuchumova',
       link: 'https://www.linkedin.com/in/shenia-kuchumova-96330b226'
     },
     {
-      image: 'iago-abad.jpg',
+      image: 'iago-abad.png',
       'name': 'Iago Abad',
-      'link': ''
+      'link': 'https://www.linkedin.com/in/iago-abad-fern%C3%A1ndez-9aa312105/'
     }
   ],
   description: [

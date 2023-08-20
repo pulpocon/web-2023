@@ -2,7 +2,7 @@ export default {
   title: 'Elasticsearch: Motor de búsqueda en vectores y híbrido',
   speaker: [
     {
-      image: 'janko-strassburg.jpg',
+      image: 'janko-strassburg.png',
       name: 'Janko Strassburg',
       link: 'https://www.linkedin.com/in/janko-strassburg-a1138250/'
     }

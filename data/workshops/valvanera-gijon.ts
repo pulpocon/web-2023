@@ -2,7 +2,7 @@ export default {
   title: 'Alertas, Pánico y Solución',
   speaker: [
     {
-      image: 'valvanera-gijon.jpg',
+      image: 'valvanera-gijon.png',
       name: 'Valvanera Gijon',
       link: 'https://www.linkedin.com/in/valvanera-gij%C3%B3n-jim%C3%A9nez-651368171/'
     }

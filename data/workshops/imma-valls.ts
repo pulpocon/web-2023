@@ -5,6 +5,11 @@ export default {
       image: 'imma-valls.jpg',
       name: 'Imma Valls',
       link: 'https://twitter.com/eyeveebee'
+    },
+    {
+      image: 'daniel-gonzalez.png',
+      name: 'Daniel Gonález',
+      link: 'https://www.linkedin.com/in/danielgonzalezlopes/'
     }
   ],
   description: [

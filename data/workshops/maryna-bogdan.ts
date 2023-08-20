@@ -2,7 +2,7 @@ export default {
   title: 'Ingenería de prompt de ChatGPT',
   speaker: [
     {
-      image: 'maryna-bogdan.jpg',
+      image: 'maryna-bogdan.png',
       name: 'Maryna Bogdan',
       link: 'https://www.linkedin.com/in/maryna-bogdan/'
     }

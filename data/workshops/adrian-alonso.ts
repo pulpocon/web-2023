@@ -2,7 +2,7 @@ export default {
   title: 'From Zero to Hero ',
   speaker: [
     {
-      image: 'adrian-alonso.jpg',
+      image: 'adrian-alonso.png',
       name: 'Adrián Alonso Vega',
       link: 'https://www.linkedin.com/in/adrianalonsovega/'
     }

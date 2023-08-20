@@ -2,7 +2,7 @@ export default {
   title: '¡De lo Transaccional a lo Analítico!: La epopeya de nuestra migración tecnológica.',
   speaker: [
     {
-      image: 'dario-cazas.jpg',
+      image: 'dario-cazas.png',
       name: 'Dario Cazás',
       link: 'https://www.linkedin.com/in/dcazas/'
     },
