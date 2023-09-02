@@ -1,5 +1,5 @@
 export default {
-  title: 'From Zero to Hero ',
+  title: 'Cuando los murciélagos vuelan de día: escalar un SaaS de web scrapping impredecible',
   speaker: [
     {
       image: 'ruben-del-campo.png',

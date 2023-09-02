@@ -258,33 +258,55 @@
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
-            <td class="program-day__table-time" rowspan="2">
+            <td class="program-day__table-time">
               16:00<br>18:00
             </td>
-            <td class="program-day__table-title" rowspan="2">
+            <td class="program-day__table-title">
               <workshop-teaser id="yondra-lopez"></workshop-teaser>
             </td>
-            <td class="program-day__table-title" rowspan="2">
+            <td class="program-day__table-title">
               <workshop-teaser id="anastasia-kondratieva"/>
             </td>
-            <td class="program-day__table-title" rowspan="2">
+            <td class="program-day__table-title">
               <workshop-teaser id="maryna-bogdan"/>
             </td>
-            <td class="program-day__table-title" rowspan="2">
+            <td class="program-day__table-title">
               <workshop-teaser id="ricard-clau"/>
             </td>
-            <td class="program-day__table-title" rowspan="2">
+            <td class="program-day__table-title">
               <workshop-teaser id="rolando-caldas"/>
             </td>
             <td class="program-day__table-title">
               <workshop-teaser id="open-mic"/>
             </td>
           </tr>
-          <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
+
+
+          <!----->
+          <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
+            <td class="program-day__table-time">
+              18:00<br>18:40
+            </td>
+            <td class="program-day__table-empty">
+              &nbsp;
+            </td>
+            <td class="program-day__table-empty">
+              &nbsp;
+            </td>
+            <td class="program-day__table-empty">
+              &nbsp;
+            </td>
+            <td class="program-day__table-empty">
+              &nbsp;
+            </td>
+            <td class="program-day__table-empty">
+              &nbsp;
+            </td>
             <td class="program-day__table-title">
               <workshop-teaser id="ruben-del-campo"/>
             </td>
           </tr>
+
         </table>
       </div>
       <footer>
